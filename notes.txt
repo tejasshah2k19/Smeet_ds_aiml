@@ -1,0 +1,36 @@
+NumPy 
+
+    numerical python 
+
+    python library used for numerical computing 
+
+    we work with arrays , matrices -- efficiently 
+
+
+pip install numpy 
+
+pip3 install numpy 
+
+python -m pip install numpy 
+
+
+
+import numpy as np  
+
+
+
+Task : 
+1) create numpy array that contains 1 to 20 numbers [ arrOne ]. 
+2) now find the min max average of arrOne. 
+3) create 4*4 identity matrix. 
+4) now create 1 more 1D array of size 10 with values between 1 to 100  [ arrTwo ].
+5) reshape arrTwo with 2D array of 2 rows and 5 cols. 
+
+
+
+6) find all the even numbers from arrOne and arrTwo. 
+7) find the mean of each row in arrTwo. 
+8) calculate the square of each elements in arrOne and arrTwo. 
+9) now reverse arrOne. 
+
+
