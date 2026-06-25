@@ -1,0 +1,36 @@
+1) find the largest 3 elements without sorting array 
+
+2) find second largest element 
+
+3) find frequency of every element 
+
+4) find duplicate elements 
+
+5) remove duplicates 
+
+6) find missing number from 1 to n 
+
+7) roate array by k positions 
+
+8) find pair whose sum = targe 
+    target = 9  then search two pair that sum is 9 
+
+9) find top 5% values 
+
+10) replace negative numbers with zero 
+ 
+1) reverse every row of matrix 
+
+2) swap first and last column 
+
+3) find the row having max sum 
+
+4) find column having minimum average 
+
+5) find common elements of two arrays 
+
+6) find elements present in first but not in second 
+
+7) find union of arrays 
+
+ 
