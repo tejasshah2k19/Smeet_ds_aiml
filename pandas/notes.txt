@@ -1,0 +1,16 @@
+pandas -> 
+    numpy -> 
+
+pip install pandas 
+
+import pandas as pd 
+
+print(pd)
+
+
+data structure -->
+    1) Series  --> vector -> [11,22,33,44] 
+    2) DataFrame --> tabular -> row*col data 
+
+    
+
