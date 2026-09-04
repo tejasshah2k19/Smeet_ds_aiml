@@ -1,0 +1,98 @@
+101,John,Male,21,78,85,69,90,88
+102,Emma,Female,20,92,89,95,91,87
+103,Liam,Male,22,65,70,68,72,75
+104,Olivia,Female,21,88,84,79,85,90
+105,Noah,Male,20,55,60,58,62,57
+106,Ava,Female,22,96,94,98,97,95
+107,James,Male,21,80,77,82,79,81
+108,Sophia,Female,20,73,75,70,74,72
+109,Lucas,Male,23,91,89,93,90,92
+110,Isabella,Female,21,67,65,69,70,68
+111,Ethan,Male,22,84,81,79,83,85
+112,Mia,Female,20,76,78,80,82,79
+113,Benjamin,Male,21,59,63,61,60,58
+114,Charlotte,Female,22,87,90,85,88,86
+115,Henry,Male,20,72,74,71,73,75
+116,Amelia,Female,21,94,96,93,95,97
+117,Alexander,Male,22,81,83,80,82,84
+118,Evelyn,Female,20,66,68,65,67,69
+119,Michael,Male,23,89,91,88,90,92
+120,Harper,Female,21,77,79,76,78,80
+
+------------------------
+| Column | Description |
+| ------ | ----------- |
+| 1      | Student ID  |
+| 2      | Name        |
+| 3      | Gender      |
+| 4      | Age         |
+| 5      | Math        |
+| 6      | Science     |
+| 7      | English     |
+| 8      | Computer    |
+| 9      | Physics     |
+------------------------
+
+
+
+1)Display first 5 students.
+2)Display last 3 students.
+3)Display only names.
+4)Display only marks.
+5)Display students whose age >21.
+6)Display female students.
+7)Display students between age 20–21.
+
+
+8)Average marks of each subject.
+9)Highest marks in every subject.
+10)Lowest marks in every subject.
+11)Overall class average.
+12)Highest scorer in Math.
+13)Lowest scorer in Physics.
+14)Total marks of every student.
+15)Percentage of every student.
+16)Standard deviation of every subject.
+
+
+17) Students scoring above 90 in Math.
+18) Students scoring below 60 in any subject.
+19) Students who passed all subjects (≥35).
+20) Students having average above 85.
+21) Students having Physics > Math.
+
+
+22) Sort students by Math marks.
+23) Sort by total marks.
+24) Top 5 students.
+
+
+25) Find student ID 108.
+26) Find student named Emma.
+27) Find students aged 22.
+
+
+28) Add 5 grace marks in English.
+29) Replace all marks below 35 with 35.
+30) Increase Computer marks by 10%.
+31) Give bonus 2 marks to everyone.
+
+32) Use np.where() to identify failed students.
+33) Count students above 80 in each subject.
+34) Create grade array (A/B/C/D/F).
+    90+  -> A
+    80-89 -> B
+    70-79 -> C
+    60-69 -> D
+    <60 -> F
+
+35)Find rank of every student based on total marks.
+36) Create a result sheet containing:
+    ID
+    Name
+    Total
+    Percentage
+    Grade
+    Rank
+
+    

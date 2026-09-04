@@ -34,3 +34,16 @@
 7) find union of arrays 
 
  
+#arange practise questions 
+1) generate numbers from 1 to 100 
+2) generate numbers from 2 to 100 but only evens 
+3) generate numbers from 100 to 1 in reverse 
+4) create 4*5 matrix of  20 to 40 values 
+5) Generate square of numbers from 1 to 10 
+
+#linspace 
+1) generate 11 numbers between 0 and 1 
+2) generate 100 points between  0 and 6.50
+3) create 4*5 Matrix using linspace 
+4) generate 21 values between -10 to 10 
+
