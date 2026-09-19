@@ -1,0 +1,54 @@
+marks = pd.Series(
+    [78, 92, 67, 88, 92, 55, 73, 88, 45, 96],
+    index=[
+        "Amit", "Rahul", "Priya", "Neha", "Karan",
+        "Mehul", "Riya", "Jay", "Sneha", "Vivek"
+    ]
+)
+
+
+
+1.  Find the highest marks.
+2.  Find the lowest marks.
+3.  Find the average marks.
+4.  Find the student with the highest marks.
+5.  Find the student with the lowest marks.
+6.  Find the total marks.
+7.  Find how many students scored above 80.
+8.  Find how many students scored below 60.
+9.  Find all students who scored exactly 92.
+10. Find the unique marks.
+11. Find the frequency of each mark.
+
+
+12. Find Top 3 Students 
+    Vivek     96
+    Rahul     92
+    Karan     92
+
+13. create two Series 1 for pass students 1 for fail students , pass -> students with marks  >= 60 else fail 
+    Passed:
+    Amit      78
+    Rahul     92
+ 
+    Failed:
+    Mehul     55
+    Sneha     45 
+
+14. create a new Series that having grade for students 
+    grade condition -> 
+    90+       → A+
+    80–89     → A
+    70–79     → B
+    60–69     → C
+    Below 60  → F
+
+    Amit  B 
+    Rahul A+
+    Priya C 
+
+
+15. unique marks 
+16. most frequently occuring marks 
+17. marks that occuring more than once 
+------------------------------------------------------------------------------------     

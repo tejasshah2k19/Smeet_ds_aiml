@@ -1,0 +1,15 @@
+marks.min()       # Minimum
+marks.max()       # Maximum
+marks.sum()       # Total
+marks.mean()      # Average
+marks.median()    # Middle value
+marks.count()     # Non-null count
+marks.std()       # Standard deviation
+marks.var()       # Variance
+marks.prod()      # Product
+marks.idxmin()    # Index of minimum
+marks.idxmax()    # Index of maximum
+marks.unique()    # Unique values
+marks.nunique()   # Number of unique values
+marks.value_counts()  # Frequency
+marks.describe()  # Statistical summary

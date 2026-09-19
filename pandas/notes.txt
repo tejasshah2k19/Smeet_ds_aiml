@@ -13,4 +13,12 @@ data structure -->
     2) DataFrame --> tabular -> row*col data 
 
     
+1) create a Series of values 10 20 30 40 50 and the print 
+2) create a Series of marks of 5 subjects 85 75 95 65 95 with index Maths , Eng , Sci , Hindi , Computer 
+3) create a dictionary of students with their name as key and age as value. create series from this dictionary and print. 
+4) access first last and third element of the series of first question 
+5) print the marks of maths and eng from series of 2nd question 
+6) using iloc print first third and last element of 1st question's series
+7) now print size shape dimension and data type of series of 2nd question 
 
+ 
