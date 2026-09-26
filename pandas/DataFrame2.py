@@ -1,6 +1,8 @@
 #iloc 
 #loc 
-#row selection 
+#row selection
+#col selection  
+#condition 
 
 import pandas as pd 
 
