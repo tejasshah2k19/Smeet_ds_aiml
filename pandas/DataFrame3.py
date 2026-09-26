@@ -122,3 +122,61 @@ print("===Query====")
 print(df.query("Maths >= 85 and Maths <= 95 "))
 
 #quer() can used to make complex condition/filters  easier 
+"""
+--------------------------------------------
+| Requirement        | Pandas              |
+| ------------------ | ------------------- |
+| Greater            | `>`                 |
+| Greater/equal      | `>=`                |
+| Less               | `<`                 |
+| Less/equal         | `<=`                |
+| Equal              | `==`                |
+| Not equal          | `!=`                |
+| AND                | `&`                 |
+| OR                 | `\|`                |
+| NOT                | `~`                 |
+| Multiple values    | `isin()`            |
+| Range              | `between()`         |
+| Contains text      | `.str.contains()`   |
+| Starts with        | `.str.startswith()` |
+| Ends with          | `.str.endswith()`   |
+| SQL-like filtering | `query()`           |
+--------------------------------------------
+""" 
+
+
+""" TASK 
+
+df = pd.DataFrame({
+    "Name": ["Amit", "Rahul", "Priya", "Neha", "Karan",
+             "Mehul", "Riya", "Jay"],
+    "Age": [25, 28, 24, 30, 27, 32, 23, 29],
+    "City": ["Ahmedabad", "Mumbai", "Pune", "Delhi",
+             "Surat", "Mumbai", "Ahmedabad", "Delhi"],
+    "Salary": [35000, 45000, 38000, 55000,
+               42000, 60000, 32000, 48000]
+})
+
+
+Find employees with salary greater than 40000.
+Find employees with salary less than 40000.
+Find employees age >= 28.
+Find employees from "Mumbai".
+Find employees NOT from "Mumbai".
+Find employees with salary between 40000 and 50000.
+Find employees from Mumbai or Delhi.
+
+Find employees whose salary is greater than 40000 and age is greater than 25.
+Find employees from Ahmedabad or Delhi with salary above 30000.
+Find employees whose name contains "a", ignoring case.
+Find employees whose age is between 25 and 30.
+Find employees whose city is one of: Ahmednad , Mumbai , Delhi 
+
+
+Difficult: 
+Find employees who earns more than 45000 in the age of 25-30 and does not lives in Ahmedabad 
+    Return only Name, City, and Salary.
+
+
+
+"""
